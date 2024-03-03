@@ -4,14 +4,14 @@ import './Login.css'; // Import your CSS file
 function LoginForm() {
   const handleSignupClick = () => {
     const loginForm = document.querySelector("form.login");
-    const loginText = document.querySelector(".title-text .login");
+    const loginText = document.querySelector(".header .login");
     loginForm.style.marginLeft = "-50%";
     loginText.style.marginLeft = "-50%";
   };
 
   const handleLoginClick = () => {
     const loginForm = document.querySelector("form.login");
-    const loginText = document.querySelector(".title-text .login");
+    const loginText = document.querySelector(".header .login");
     loginForm.style.marginLeft = "0%";
     loginText.style.marginLeft = "0%";
   };
