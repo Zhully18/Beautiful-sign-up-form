@@ -25,7 +25,7 @@ html,body{
   border-radius: 15px;
   box-shadow: rgb(66, 38, 77) 0px 20px 30px -10px;
 }
-.wrapper .title-text{
+.wrapper .header{
   display: flex;
   width: 200%;
 }
@@ -36,7 +36,7 @@ html,body{
   text-align: center;
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
-.wrapper .slide-controls{
+.wrapper .slider-controls{
   position: relative;
   display: flex;
   height: 50px;
@@ -47,7 +47,7 @@ html,body{
   border: 1px solid lightgrey;
   border-radius: 35px;
 }
-.slide-controls .slide{
+.slider-controls .slide{
   height: 100%;
   width: 100%;
   color: #fff;
@@ -59,10 +59,10 @@ html,body{
   z-index: 1;
   transition: all 0.6s ease;
 }
-.slide-controls label.signup{
+.slider-controls label.signup{
   color: #000;
 }
-.slide-controls .slider-tab{
+.slider-controls .slider-tab{
   position: absolute;
   height: 100%;
   width: 50%;
@@ -98,21 +98,21 @@ input[type="radio"]{
   width: 100%;
   overflow: hidden;
 }
-.form-container .form-inner{
+.form-container .form-details{
   display: flex;
   width: 200%;
 }
-.form-container .form-inner form{
+.form-container .form-details form{
   width: 50%;
   transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
 }
-.form-inner form .field{
+.form-details form .field{
   height: 50px;
   width: 100%;
   margin-top: 20px;
   border-bottom: 2px solid #adadad;
 }
-.form-inner form .field input{
+.form-details form .field input{
   height: 100%;
   width: 100%;
   outline: none;
@@ -123,27 +123,27 @@ input[type="radio"]{
   font-size: 17px;
   transition: all 0.3s ease;
 }
-.form-inner form .field input::placeholder{
+.form-details form .field input::placeholder{
   color: #999;
   transition: all 0.3s ease;
 }
 form .field input:focus::placeholder{
   color: #ab1aff;
 }
-.form-inner form .pass-link{
+.form-details form .pass-link{
   margin-top: 5px;
 }
-.form-inner form .signup-link{
+.form-details form .signup-link{
   text-align: center;
   margin-top: 30px;
 }
-.form-inner form .pass-link a,
-.form-inner form .signup-link a{
+.form-details form .pass-link a,
+.form-details form .signup-link a{
   color: #a31aff;
   text-decoration: none;
 }
-.form-inner form .pass-link a:hover,
-.form-inner form .signup-link a:hover{
+.form-details form .pass-link a:hover,
+.form-details form .signup-link a:hover{
   text-decoration: underline;
 }
 form .btn{

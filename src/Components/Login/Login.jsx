@@ -24,19 +24,19 @@ function LoginForm() {
 
   return (
     <div className="wrapper">
-      <div className="title-text">
+      <div className="header">
         <div className="title login">Login </div>
         <div className="title signup">Sign Up </div>
       </div>
       <div className="form-container">
-        <div className="slide-controls">
+        <div className="slider-controls">
           <input type="radio" name="slide" id="login" defaultChecked />
           <input type="radio" name="slide" id="signup" />
           <label htmlFor="login" className="slide login" onClick={handleLoginClick}>Login</label>
           <label htmlFor="signup" className="slide signup" onClick={handleSignupClick}>Signup</label>
           <div className="slider-tab"></div>
         </div>
-        <div className="form-inner">
+        <div className="form-details">
           <form action="#" className="login">
             <pre></pre>
             <div className="field">
